@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".telas.TipoUsuarioActivity">
+
+
+    <LinearLayout
+        android:layout_marginTop="45dp"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="25dp"
+            android:gravity="center"
+            android:text="Quem\nestá usando este app?"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_marginTop="80dp"
+        android:layout_gravity="center_horizontal"
+        android:orientation="vertical"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <EditText
+            android:id="@+id/txtNome"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Digite seu nome"
+            android:maxLines="1"
+            android:singleLine="true"
+            android:maxLength="10"
+            android:gravity="center"/>
+
+        <Button
+            android:id="@+id/btnAluno"
+            android:layout_width="180dp"
+            android:layout_marginTop="15dp"
+            android:layout_height="wrap_content"
+            android:text="Aluno"/>
+
+        <Button
+            android:id="@+id/btnAdm"
+            android:layout_marginTop="15dp"
+            android:layout_width="180dp"
+            android:layout_height="wrap_content"
+            android:text="Responsável"/>
+    </LinearLayout>
+
+</LinearLayout>

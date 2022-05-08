@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:paddingLeft="15dp"
+    android:paddingRight="20dp"
+    android:paddingTop="20dp"
+    android:orientation="vertical"
+    android:background="@color/CinzaClaro"
+    android:layout_height="wrap_content">
+
+    <RelativeLayout
+        android:id="@+id/lnl"
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:layout_centerInParent="true"
+        android:layout_height="45dp">
+
+        <TextView
+            android:id="@+id/lblMateria"
+            android:textSize="17sp"
+            android:textColor="@color/Preto"
+            android:textStyle="bold"
+            android:layout_width="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_alignParentLeft="true"
+            android:layout_height="wrap_content"/>
+
+        <LinearLayout
+            android:id="@+id/lnlMarcacao"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="15dp"
+            android:layout_width="10dp"
+            android:layout_height="10dp"
+            android:orientation="vertical"
+            android:background="@drawable/item_marcacao"/>
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:layout_below="@+id/lnl"
+        android:background="@color/Cinza"/>
+</RelativeLayout>

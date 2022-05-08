@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".telas.AddTarefaActivity"
+    android:orientation="vertical">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:background="@color/colorPrimary"
+        app:menu="@menu/mnu_tarefa"
+        app:title=""/>
+
+    <TextView
+        android:id="@+id/lnlTipo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Adicione"
+        android:textSize="25sp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="35dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="As informações da lição   para prosseguir"
+        android:textSize="14sp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="2dp"/>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="15dp">
+
+        <EditText
+            android:id="@+id/txtTitulo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+
+            android:hint="Título da lição"/>
+
+        <EditText
+            android:id="@+id/txtDetalhes"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:hint="Detalhes da tarefa"/>
+
+        <EditText
+            android:id="@+id/txtDtEntrga"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:hint="Data de entrega"/>
+
+    </LinearLayout>
+
+</LinearLayout>

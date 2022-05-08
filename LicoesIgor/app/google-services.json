@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "646193152886",
+    "firebase_url": "https://licoes-igor.firebaseio.com",
+    "project_id": "licoes-igor",
+    "storage_bucket": "licoes-igor.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:646193152886:android:6befa2e14d6da5715cb057",
+        "android_client_info": {
+          "package_name": "com.example.licoesigor"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "646193152886-n1p8p0m45f22t1du4ol9mnk4e2navjkr.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBI1VLkoTkvNPj5rHfmtdZCXOb3xE8Gchk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "646193152886-n1p8p0m45f22t1du4ol9mnk4e2navjkr.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

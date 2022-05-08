@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item android:id="@+id/AltTarefa"
+        app:showAsAction="collapseActionView"
+        android:title="Alterar"
+        android:icon="@drawable/ic_edit_white"/>
+
+    <item android:id="@+id/RemoverTarefa"
+        app:showAsAction="collapseActionView"
+        android:title="Remover"
+        android:icon="@drawable/ic_delete"/>
+
+    <item android:id="@+id/ConcluirTarefa"
+        app:showAsAction="always"
+        android:title="Concluir"
+        android:icon="@drawable/ic_check"/>
+</menu>

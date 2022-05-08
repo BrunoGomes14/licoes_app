@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardCornerRadius="17dp"
+    android:elevation="10dp"
+    android:padding="0dp"
+    android:layout_margin="10dp"
+    android:layout_marginTop="10dp"
+    app:cardBackgroundColor="@color/Branco"
+    android:layout_height="wrap_content"
+    android:layout_width="match_parent">
+
+    <RelativeLayout
+        android:id="@+id/rtlPricipal"
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:padding="10dp"
+        android:background="@drawable/borda_layout"
+        android:layout_margin="2dp"
+        android:layout_height="wrap_content">
+
+        <RelativeLayout
+            android:id="@+id/rln"
+            android:background="@color/Branco"
+            android:layout_width="match_parent"
+            android:layout_height="45dp">
+
+            <TextView
+                android:id="@+id/lblDiaSemana"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_centerVertical="true"
+                android:textStyle="italic|bold"
+                android:textSize="16sp"
+                android:textColor="@color/colorPrimary"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:layout_alignParentBottom="true"
+                android:background="@color/colorPrimary"/>
+
+        </RelativeLayout>
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/rcvMaterias"
+            android:layout_below="@+id/rln"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+    </RelativeLayout>
+
+
+</androidx.cardview.widget.CardView>
